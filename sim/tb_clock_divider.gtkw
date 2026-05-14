@@ -1,0 +1,18 @@
+[*]
+[*] GTKWave Savefile — tb_clock_divider
+[*]
+[dumpfile] "tb_clock_divider.ghw"
+[savefile] "sim/tb_clock_divider.gtkw"
+[timestart] 0
+[size] 1400 600
+[pos] 0 0
+*-23.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_clock_divider.
+[signals_width] 200
+@28
+tb_clock_divider.clk_in
+tb_clock_divider.rst
+@28
+tb_clock_divider.clk_out
+[pattern_trace] 1
+[pattern_trace] 0

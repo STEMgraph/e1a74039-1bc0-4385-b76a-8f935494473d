@@ -1,0 +1,16 @@
+[*]
+[*] GTKWave Savefile — tb_blinky
+[*]
+[dumpfile] "tb_blinky.ghw"
+[savefile] "sim/tb_blinky.gtkw"
+[timestart] 0
+[size] 1400 600
+[pos] 0 0
+*-23.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_blinky.
+[signals_width] 200
+@28
+tb_blinky.clk
+tb_blinky.led
+[pattern_trace] 1
+[pattern_trace] 0
