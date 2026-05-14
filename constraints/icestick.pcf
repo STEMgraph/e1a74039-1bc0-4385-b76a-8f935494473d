@@ -1,6 +1,6 @@
-# iCEstick Constraints
-# 12 MHz Onboard-Oszillator
+# iCEstick constraints
+# 12 MHz onboard oscillator
 set_io clk  21
 
-# LED D5 (gruene LED, FPGA-Pin 99 auf iCEstick)
+# LED D1 (green LED, FPGA pin 99 on iCEstick)
 set_io led  99

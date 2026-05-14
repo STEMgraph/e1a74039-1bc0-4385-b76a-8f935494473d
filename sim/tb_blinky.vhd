@@ -6,8 +6,8 @@ end entity tb_blinky;
 
 architecture sim of tb_blinky is
 
-    constant CLK_PERIOD : time     := 83333 ps;  -- ~12 MHz (83,333 ns)
-    constant DIVISOR    : positive := 10;         -- klein halten; Hardware nutzt 6_000_000
+    constant CLK_PERIOD : time     := 83333 ps;  -- ~12 MHz (83.333 ns)
+    constant DIVISOR    : positive := 10;         -- keep small; hardware uses 6_000_000
 
     signal clk : std_logic := '0';
     signal led : std_logic;
@@ -25,9 +25,9 @@ begin
 
     stim : process
     begin
-        -- 200 Takte = 20 vollstaendige led-Perioden bei DIVISOR=10
+        -- 200 cycles = 20 complete LED periods at DIVISOR=10
         wait for CLK_PERIOD * 200;
-        report "Simulation beendet." severity note;
+        report "Simulation complete." severity note;
         std.env.stop;
     end process;
 

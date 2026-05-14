@@ -1,0 +1,15 @@
+# GHDL build artifacts
+*.o
+*.cf
+work-obj08.cf
+
+# Simulation output
+*.ghw
+tb_blinky
+tb_clock_divider
+
+# Synthesis & place-and-route
+*.v
+*.json
+*.asc
+*.bin

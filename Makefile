@@ -18,7 +18,7 @@ $(SIM_TOP).ghw: $(SIM_SRC)
 	ghdl -e --std=08 $(SIM_TOP)
 	ghdl -r --std=08 $(SIM_TOP) --wave=$(SIM_TOP).ghw
 
-# ---------- Synthese & Flash ----------
+# ---------- Synthesis & Flash ----------
 synth: $(TOPLEVEL).bin
 
 $(TOPLEVEL).v: $(SRC)
